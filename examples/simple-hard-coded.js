@@ -17,8 +17,7 @@ const options = {
   }
 };
 const {
-  values,
-  positionals
+  values, positionals
 } = parseArgs({ args, options });
 console.log(values, positionals);
 
